@@ -1,4 +1,4 @@
-# StatXplore-API
+# Stat-Xplore API Query with Python
 
 ## Output
 
