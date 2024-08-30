@@ -2,7 +2,9 @@
 
 ## Output
 
-This Python script will successfully iterate through .json files stored in a file directory and query them using the Stat-Xplore API. It appends the return of each query and adds a new column labelling the file name of the query at the time to produce a resulting table that contains all values for all json files loaded and context around the origins of each value. This is useful given Stat-Xplore will likely return a 'Request Entity Too Large' issue if the custom table generated is too large and so by batching the upload by region, for instance, proves a successful work-around.
+This Python script will successfully iterate through .json files stored in a file directory and query them using the Stat-Xplore API. It appends the return of each query and adds a new column labelling the file name of the query at the time to produce a resulting table that contains all values for all json files loaded and context around the origins of each value. 
+
+This is useful given Stat-Xplore will likely return a 'Request Entity Too Large' issue if the custom table generated is too large. Batching the upload by region, for instance, proves a successful work-around.
 
 ## Requirements
 
