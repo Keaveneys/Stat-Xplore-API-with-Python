@@ -24,7 +24,6 @@ It is important to download the query as a .json file.
 ## Known Improvements
 
 - **Error Handling.**
-- **File Management.** Processed files should be moved/deleted so as to reduce the likelihood json queries with different sizes are not appended to one another. 
 
 ## Development Log
 - 30/08/24: Repository created
