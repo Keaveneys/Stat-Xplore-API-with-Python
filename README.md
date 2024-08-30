@@ -17,5 +17,10 @@ https://stat-xplore.dwp.gov.uk/webapi/online-help/Create-a-Custom-Group.html
 
 It is important to download the query as a .json file.
 
+## Known Improvements
+
+- **Error Handling.**
+- **File Management.** Processed files should be moved/deleted so as to reduce the likelihood json queries with different sizes are not appended to one another. 
+
 
 
