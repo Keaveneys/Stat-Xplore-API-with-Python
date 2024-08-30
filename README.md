@@ -6,6 +6,8 @@ This Python script will successfully iterate through .json files stored in a fil
 
 This is useful given Stat-Xplore will likely return a 'Request Entity Too Large' issue if the custom table generated is too large. Batching the upload by region, for instance, proves a successful work-around.
 
+This script can be executed within PowerBI.
+
 ## Requirements
 
 - **The same data shape is queried for each json file.** *This is only intended to work with the same query adjusted for the similar type of row-level granularity. Making any adjustments will almost certainly result in an error message but is currently untested.*
